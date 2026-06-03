@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto_M.png" type="image/png">  
+        <img src="imagens/foto_G.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Teste de caminho para pag 02</h1>
+    <p>Aqui vou fazer um teste de caminho para a <a href="pag002.html" rel="next" >pagina 02</a></p>
+    <p>vou criar aqui um link para as noticias da <a href="noticias/noticias.html">pagina 03 noticias</a></p>
+
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender a reproduzir audio em html5</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Allégro - Emmit Fenn.mp3" type="audio/mpeg">
+    </audio>
+   <p>caso infelizmente seu arquivo nao reproduza audio <a href="midia/Allégro - Emmit Fenn.mp3" >baixe aqui </a> </p>
+
+   
+  
+    
+</body>
+</html>
