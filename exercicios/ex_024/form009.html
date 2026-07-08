@@ -10,7 +10,7 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="inum">Número:</label>
-            <input type="range" name="num" id="inum" min="0" max="100" value="5" oninput="ival.innerHTML = Number(inum.value)">
+            <input type="range" name="num" id="inum" min="0" max="100" value="5" step="5" oninput="ival.innerHTML = Number(inum.value)">
             <output id="ival">5</output>
         </p>
 
