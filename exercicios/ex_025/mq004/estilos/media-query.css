@@ -11,8 +11,7 @@ grandes telas: acima 1200px
 
 @media print {
     * {
-        font-family: 'Courier New', Courier, monospace;
-        text-size-adjust: 0.5em;
+        font-family: 'Courier New', Courier, monospace;       
     }
 
     body {
