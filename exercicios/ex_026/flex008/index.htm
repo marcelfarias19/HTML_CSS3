@@ -7,9 +7,11 @@
     <style>
         div.conteiner {
             background-color: lightcoral;
-
-            display: flex;
+            height: 400px;
             flex-flow: row wrap;
+            align-items: self-start;
+            display: flex;
+           
         }
 
         div.item {
@@ -20,31 +22,32 @@
         }
 
         div#i1 {
-            order: 0;
+            
         }
 
-        div#i2 {
-            order: -2;
+        div#i2 {        
+
         }
 
         div#i3 {
-            order: 4;
+            align-self: flex-end;
         }
 
         div#i4 {
-            order: 8;
+           
         }
 
         div#i5 {
-            order: 2;
+            align-self: center;
         }
 
         div#i6 {
-            order: 0;
+            width: 2;
+            
         }
 
         div#i7 {
-            order: -4;            ;
+            align-self: stretch;            
         }
 
     </style>
