@@ -1,8 +1,16 @@
 @charset "utf-8";
 
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 .container {
+    width: 100vw;
+    height: 100vh;
     display: grid;
-    grid-template-rows: 150px 50px 600px 50px;
+    grid-template-rows: 150px 50px 1fr 50px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
 }
